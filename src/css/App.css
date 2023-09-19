@@ -2,6 +2,13 @@ button, input, label {
     font-size: 1.3rem;
 }
 
+.page {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/Oceanic.jpeg);
+    background-size: cover;
+}
+
 header {
     position: fixed;
     width: 100%;
