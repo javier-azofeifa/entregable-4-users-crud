@@ -10,7 +10,7 @@ function App() {
   const [infoUpdate, setInfoUpdate] = useState()
   const [isFormActive, setIsFormActive] = useState(false);
 
-  const baseUrl = 'http://users-crud.academlo.tech'
+  const baseUrl = 'https://users-crud.academlo.tech'
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useFetch(baseUrl)
 
 
