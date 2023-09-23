@@ -93,7 +93,7 @@
 .user_button button {
     text-align: center;
     width: 25%;
-    padding: 0.2em 0;
+    /* padding: 0.2em; */
     margin: 0 20px;
     color: white;
     border-radius: 10px;
@@ -103,9 +103,9 @@
 
 .photo_label {
     text-align: center;
-    width: 25%;
+    width: 35%;
     padding: 0.2em 0;
-    margin: 0 20px;
+    margin: 0 25px;
     color: white;
     border-radius: 10px;
     border: 2px solid white;

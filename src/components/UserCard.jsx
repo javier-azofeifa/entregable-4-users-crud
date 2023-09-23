@@ -60,7 +60,7 @@ const UserCard = ({ user, deleteUser, setInfoUpdate, setIsFormActive }) => {
           </div>
         </div>
         <div className="user_button">
-        <label className='photo_label' htmlFor={`photo-${user.id}`}>
+          <label className='photo_label' htmlFor={`photo-${user.id}`}>
             <input
               type="file"
               name={`photo-${user.id}`}
@@ -68,7 +68,7 @@ const UserCard = ({ user, deleteUser, setInfoUpdate, setIsFormActive }) => {
               accept="image/*"
               onChange={handleImageChange}
             />
-            Photo
+            Load Photo
           </label>
           <button onClick={handleActive}>Edit</button>
           <button className="custom-btn btn-2" onClick={handleDelete}>Delete</button>

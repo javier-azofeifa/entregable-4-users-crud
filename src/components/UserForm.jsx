@@ -4,11 +4,8 @@ import '../css/UserForm.css'
 
 const FormUser = ({ createUser, infoUpdate, updateUser, setInfoUpdate, setIsFormActive }) => {
 
-    const [isActive, setIsActive] = useState(false);
-
     const handleActive = () => {
-        setIsActive(!isActive);
-        setIsFormActive(!isActive);
+        setIsFormActive(false);
     };
 
     const { handleSubmit, register, reset } = useForm()

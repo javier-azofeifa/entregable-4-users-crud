@@ -13,12 +13,9 @@ function App() {
   const baseUrl = 'https://users-crud.academlo.tech'
   const [ users, getUsers, createUser, deleteUser, updateUser ] = useFetch(baseUrl)
 
-
   useEffect(() => {
     getUsers('/users')
   }, [])
-
-  console.log(users);
 
   return (
     <div className='page'>
